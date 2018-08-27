@@ -5,7 +5,7 @@ To identify characteristics of survived people in this disaster and to predict t
 train <- read.csv('train.csv', stringsAsFactors = F)
 test  <- read.csv('test.csv', stringsAsFactors = F)
 
-summary(train)
+
 
 ##Divide the name into different parts
 title1 <- vector(length=length(train$Name))
